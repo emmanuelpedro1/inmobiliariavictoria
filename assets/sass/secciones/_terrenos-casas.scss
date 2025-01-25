@@ -1,0 +1,174 @@
+/* seccion de terrenos*/
+
+.seccion-casas {
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .seccion-casas h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .contenedor-casas {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .casa {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .casa:hover {
+    transform: scale(1.05);
+  }
+  
+  .casa img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .casa h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #444;
+  }
+  
+  .casa p {
+    font-size: 1rem;
+    color: #666;
+    margin: 10px;
+  }
+  
+  .casa .precio {
+    display: block;
+    font-size: 1.2rem;
+    color: #2c7a7b;
+    font-weight: bold;
+    margin: 10px;
+  }
+  
+  .casa .btn-detalle {
+    background-color: #2c7a7b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .casa .btn-detalle:hover {
+    background-color: #225e5e;
+  }
+  
+
+
+  
+
+  /*descripcion de las casas*/
+
+  .detalle-casa {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    max-width: 1140px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .imagen-casa img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .info-casa {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .info-casa h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .descripcion {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  .detalles {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .detalle {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1rem;
+  }
+  
+  .detalle .titulo {
+    font-weight: bold;
+    color: #444;
+  }
+  
+  .detalle .valor {
+    color: #2c7a7b;
+  }
+  
+  .btn-contacto {
+    align-self: flex-start;
+    background-color: #2c7a7b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-contacto:hover {
+    background-color: #225e5e;
+  }
+/*mapa*/
+.mapa-casas {
+    margin: 20px auto; /* Centra la sección horizontalmente */
+    width: 80%; /* Ancho del mapa (ajustable) */
+    height: 400px; /* Altura del mapa */
+    border: 2px solid transparent; /* Define el grosor del borde */
+    border-radius: 15px; /* Bordes redondeados */
+    background: linear-gradient(135deg, #ffd700, #333); /* Degradado del borde */
+    padding: 5px; /* Espacio para mostrar el borde degradado */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Sombra para darle profundidad */
+  }
+  
+  .mapa-casas iframe {
+    border-radius: 10px; /* Bordes redondeados para el iframe */
+    width: 100%; /* Asegura que el iframe se ajuste al contenedor */
+    height: 100%; /* Llena la altura definida */
+  }

@@ -1,0 +1,20 @@
+/*color del nav*/
+.rojo-bg{
+    background-color: $color-nav;
+  }
+  .rojo-bg div div ul li .menu-bg{
+    background-color: #bac3cc;
+  }
+  nav{
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  /*tamaño de la imagen del nav*/
+  .img-nav {
+    width: 15%;
+    height: 15%;
+    object-fit: cover; /* Asegura que la imagen se ajuste sin deformarse */
+    padding: 0; /* Elimina cualquier margen o padding no deseado */
+    border: none; /* Por si acaso hay bordes predeterminados */
+    display: block;
+  }

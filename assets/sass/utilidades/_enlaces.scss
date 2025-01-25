@@ -1,0 +1,22 @@
+/* saca el color azul de los enlaces */
+a {
+    color: white; /* color de los enlaces*/
+    text-decoration: none; /* Esto quita el subrayado */
+  }
+  
+   /* Clase reutilizable para aplicar efecto zoom */
+.zoom {
+    display: inline-block;
+    text-decoration: none; /* Quita el subrayado */
+   
+    font-weight: bold;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  .zoom:visited {
+    color: white; /* Color fijo para enlaces visitados */
+  }
+  
+  .zoom:hover {
+    transform: scale(1.5); /* Aumenta el tamaño un 20% */
+    color: white; /* Cambia el color del texto al pasar el mouse */
+  }

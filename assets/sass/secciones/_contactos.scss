@@ -1,0 +1,68 @@
+/*contacto*/
+
+#contacto {
+    padding: 40px;
+    background-color: #f8f9fa;
+  }
+  
+  #contacto h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .contacto-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .info-contacto {
+    flex: 1;
+    min-width: 300px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .info-contacto a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .info-contacto a:hover {
+    text-decoration: underline;
+  }
+  
+  form {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  form button:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,35 @@
+@import "variables";
+/* footer */
+footer {
+    background-color: $color-nav;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+.social-links a {
+  color: black;
+  text-decoration: none;
+  margin: 0 10px;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.social-links i {
+  margin-right: 5px;
+  font-size: 18px; /* Tamaño del icono */
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+  opacity: 0.8; /* Efecto al pasar el ratón por encima */
+}
+/* Colores de las redes sociales */
+.facebook i {
+  color: #1877f2; /* Azul de Facebook */
+}
+
+.instagram i {
+  color: #e4405f; /* Rosa de Instagram */
+}
+

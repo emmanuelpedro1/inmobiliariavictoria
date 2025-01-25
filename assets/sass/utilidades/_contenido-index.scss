@@ -1,0 +1,33 @@
+/* agentes inmobiliarios */
+.team-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  /* servicios */
+  .service .icon {
+    display: inline-block;
+    margin-bottom: 15px;
+  }
+  
+  #services {
+    background-color: #f8f9fa; /* Color de fondo suave */
+    padding: 50px 0; /* Espaciado interno */
+  }
+  
+  .service {
+    border: 1px solid #ddd; /* Borde para destacar cada servicio */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interno */
+    background-color: #fff; /* Fondo blanco */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para destacar */
+    transition: transform 0.3s ease;
+  }
+  
+  .service:hover {
+    transform: translateY(-5px); /* Efecto de elevación al pasar el mouse */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+  }
